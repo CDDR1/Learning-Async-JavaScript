@@ -13,7 +13,7 @@ console.log(2);
 
 setTimeout(() => {
     console.log('simulation of a blocking code process');
-}, 3000);
+}, 1000);
 
 console.log(3);
 console.log(4);
