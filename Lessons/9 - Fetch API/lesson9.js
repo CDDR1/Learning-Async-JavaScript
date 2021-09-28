@@ -1,10 +1,10 @@
 // Fetch API 
 
-fetch('todos.json').then((response) => {
+fetch('todos.json').then(response => {
     console.log(response);
     return response.json();
 }).then(data => {
     console.log(data);
-}).catch((err) => {
+}).catch(err => {
     console.log(err);
 });
